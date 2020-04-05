@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<!-- Meta Tagi -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link rel="manifest" href="manifest.json" />
+		<link rel="icon" href="favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="images/bike-icon-152.png">
+		<meta name="theme-color" content="white"/>
+		<title>PWA temat 1</title>
+		<meta name="Description" content="Temat 1 PWA">
+	</head>
+	<body>
+		
+		<header class="page-header header container-fluid">
+			<div class="overlay"></div>
+			<div class="description">
+				<h1>Rower</h1>
+				<p>Pojazd napędzany siłą ludzkich mięśni</p>
+			</div>
+		</header>
+		
+		<!-- Menu -->
+		<nav class="navbar navbar-expand-md">
+			<a class="navbar-brand" href="#">Rowery</a>
+			<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="main-navigation">
+				<ul class="navbar-nav">
+				  <li class="nav-item">
+					<a class="nav-link" href="#">Firma</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">Produkty</a>
+				  </li>
+				  <li class="nav-item">
+					<a class="nav-link" href="#">Kontakt</a>
+				  </li>
+				</ul>
+			</div>
+			</nav>
+
+		<!-- Tabela -->	
+		  <div class="container features">
+				<div class="row">
+					<div class="col-md-4">
+					  <h3 class="feature-title">Definicja roweru</h3>
+					  <img src="images/column-1.jpg" alt="Rower Projekt" class="img-fluid">
+					  <p>Jedno - lub wielośladowy pojazd drogowy napędzany siłą mięśni poruszających się nim osób za pomocą przekładni mechanicznej, wprawianej w ruch (najczęściej) nogami.</p>
+					  <p>Pierwotnie nosił nazwę welocyped oraz bicykl i podobnie nazywany jest w większości nowożytnych języków europejskich. Obecna polska nazwa pochodzi od brytyjskiej firmy Rover, która dawniej produkowała rowery.</p>
+					</div>
+					<div class="col-md-8">
+					  <h3 class="feature-title">Rodzaje rowerów</h3>
+					  <h5 class="feature-title">Górski (MTB)</h5>
+					  <img src="images/column-2a.jpg" alt="Rower Górski"  class="img-fluid">
+					  <p>Rowery MTB są przeznaczone do jazdy po trudnym terenie. Szczególnie dobrze sprawdzą się podczas jazdy po kamienistych ścieżkach i stromych wzniesieniach.</p>
+					  <p>Rower górski to komfortowy jednoślad na kołach 26, 27,5 lub 29 calowych. Profesjonalny rower MTB wyróżnia specjalnie wzmacniana rama oraz koła z szerokimi oponami, które gwarantują lepszą przyczepność podczas jazdy po nierównym terenie.</p>
+					  <h5 class="feature-title">Tandem</h5>
+					  <img src="images/column-2b.jpg" alt="Rower Tandem"  class="img-fluid">
+					  <p>Tandem to rower przeznaczony dla dwóch lub więcej osób siedzących w układzie jedna za drugą. Typowy tandem ma, tak samo jak rower jednoosobowy, jedną ramę i dwa koła, za to każda z osób ma własne: kierownicę, siodełko i pedały</p>
+					  <h5 class="feature-title">BMX</h5>
+					  <img src="images/column-2c.jpg" alt="Rower BMX"  class="img-fluid">
+					  <p>BMX to rower o szerokich, najczęściej 20 calowych kołach. Jest wyposażony w małe siodełko i tylny hamulec ręczny. Występują trzy rodzaje BMX:</p> 
+						<ul>
+							<li><b>Race</b> to super lekkie rowery do ścigania się na ziemnych torach wymagających przeskakiwania hopek.</li>
+							<li><b>Flatland</b> można porównać do jazdy figurowej. Zawodnicy wykonują iście cyrkowe figury. Zalicza się do tego jazda na przednim lub tylnym kole, jazda bez użycia pedałów, przeskoki, rotacje kierownicą itp.</li>
+							<li><b>Dirt</b> to dyscyplina polegająca na wykonywaniu trików w powietrzu wybijając się na specjalnych ziemnych hopkach.</li>
+						</ul>
+					</div>
+				</div>
+			</div> 
+			<!-- Stopka -->
+			<footer class="page-footer">
+				<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-md-8 col-sm-12">
+				  <h6 class="text-uppercase font-weight-bold">Grupa:</h6>
+				  <p>Michał Matusik, Mariusz Tota, Piotr Soboćiński oraz Daniel Żurek</p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12">
+				  <h6 class="text-uppercase font-weight-bold">Programowanie Systemów Mobilnych</h6>
+				  <p>Zadanie wykonane w ramach Temat 1</p>
+				</div>
+				</div>
+				</div>
+			  <div class="footer-copyright text-center">© 2020 Uniwersytet Ekonomiczny w Krakowie</div>
+			</footer>
+		<!-- JavaScript -->
+		<script>
+
+			if ('serviceWorker' in navigator) {
+				window.addEventListener('load', function () {
+					navigator.serviceWorker.register('service-worker.js')
+						.then(function () { console.log("Service Worker Registered"); });
+				}
+				);
+			}
+		</script>
+		<!-- jQuery, Bootstrap JS i JS -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

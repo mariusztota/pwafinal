@@ -1,0 +1,37 @@
+{
+    "name": "Bike App",
+    "short_name": "PWA",
+    "start_url": "index.html",
+    "display": "standalone",
+    "description": "PWA Temat 1",
+    "background_color": "#ffffff",
+    "theme_color": "#white",
+    "orientation": "portrait-primary",
+    "icons": [
+       {
+    "src": "images/bike-icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }, {
+      "src": "images/bike-icon-144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }, {
+      "src": "images/bike-icon-152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    }, {
+      "src": "images/bike-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }, {
+      "src": "images/bike-icon-256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }, {
+      "src": "images/bike-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+       }
+    ]
+ }
