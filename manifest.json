@@ -5,7 +5,7 @@
     "display": "standalone",
     "description": "PWA Temat 1",
     "background_color": "#ffffff",
-    "theme_color": "#white",
+    "theme_color": "#317EFB",
     "orientation": "portrait-primary",
     "icons": [
        {
