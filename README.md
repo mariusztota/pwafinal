@@ -1,3 +1,3 @@
-# PWA Temat 1
+# PWA Temat 1 -  03-ProgressiveWebApp -  zadanie grupowe - PSM 
 
-# pwafinal
+#  https://mariusztota.github.io/pwafinal
